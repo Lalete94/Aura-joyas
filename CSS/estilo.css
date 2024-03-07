@@ -184,12 +184,10 @@ body {
     grid-area: footer;
 }
 .seccionsie{
-    border: solid black 2px;
     width: 33.3%;
 }
 .secciono{
     width: 33.3%;
-    border: solid black 2px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
