@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Forum", serif;
+    src: url("../font/Forum/Forum-Regular.ttf");
+}
+body {
+    background: linear-gradient(to bottom, rgba(247, 237, 237, 1) 24%, rgba(244, 230, 230, 1) 62%, rgba(244, 227, 227, 1) 84%, rgba(255, 226, 226, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    font-family: "Ubuntu Mono", monospace;
+}
+.container { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 3fr 2fr 0.5fr;
+    gap: 2px 2px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "header header header"
+        "main main main"
+        "aside aside aside"
+        "footer footer footer";
+}
+.header {
+    width: 100vw;
+    background-color:white;
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-area: header;
+}
+.header__img{
+    border: solid 2px  rgb(86, 92, 4);      
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.navbar{
+    width: 100%;
+}
+.main{
+    margin: 0;
+    border: solid rgb(86, 92, 4) 2px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-area: main;
+}
+.carrusel{
+    width: 100vw;
+    border: solid black 2px;
+    margin: 0 auto;
+}
+.mainu{
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    border: solid black 2px;
+    grid-area: mainu;
+}
+.seccionu{
+    border: solid rgb(86, 92, 4) 2px;
+    width: 20vw;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.maind{
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    border: solid black 2px;
+    grid-area: maind;
+}
+.secciond{
+    border: solid rgb(86, 92, 4) 2px;
+    width: 20vw;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.maint{
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    border: solid black 2px;
+    grid-area: maint;
+}
+.secciont{
+    border: solid rgb(86, 92, 4) 2px;
+    width: 20vw;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.tabla{
+    border: solid black 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tablau{
+    border: solid black 2px;
+    width: 100vw;
+}
+.tablad{
+    border: solid rgb(86, 92, 4) 2px;
+    width: 80vw;
+    margin: 0 auto;
+}
+.Producto{
+    border: solid black 2px;
+    width: 100%;
+}
+.aside{
+    border: solid rgb(86, 92, 4) 2px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-area: aside;
+}
+.centradou{
+    border: solid black 2px;
+    width: 100%;
+    height: 3rem;
+}
+.centradod{
+    border: solid black 2px;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.seccionc{
+    border: solid black 2px;
+    width: 30vw;
+    margin: 0.7rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+.seccionci{
+    border: solid black 2px;
+    width: 30vw;
+    margin: 0.7rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+.seccions{
+    border: solid black 2px;
+    width: 30vw;
+    margin: 0.7rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+.acordeon{
+    border: solid rgb(86, 92, 4) 2px;
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.accordion{
+    width: 80vw;
+}
+.footer{
+    background-color: white;
+    border: solid black 2px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    grid-area: footer;
+}
+.seccionsie{
+    width: 33.3%;
+}
+.secciono{
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.seccionn{
+    border: solid black 2px;
+    width: 33.3%;
+}
+.ins {
+    width: 20px;
+    height: 20px;
+}
+@media screen and (max-width: 768px){
+    .container{
+        grid-template-columns:1fr 1fr;
+        grid-template-rows: 1fr 3.5fr 1fr 0.5fr;
+        grid-template-areas: 
+            "header header"
+            "main main"
+            "aside aside"
+            "footer footer";
+    }
+    .header{
+        height: 20.5rem auto;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .main{
+    flex-wrap: wrap;
+    }
+    .mainu{
+    margin: 0 auto;
+    width: 49%;
+    }
+    .seccionu{
+    width: 80%;
+    }
+    .maind{
+    margin: 0 auto;
+    width: 49%;
+    }
+    .secciond{
+    width: 80%;
+    }
+    .maint{
+    margin: 0 auto;
+    width: 99%;
+    }
+    .secciont{
+    margin: 0 auto;
+    width: 40%;
+    }
+    .seccionc{
+        width: 30%;
+    }
+    .seccionci{
+        width: 30%;
+    }
+    .seccions{
+        width: 30%;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .secciono{
+        justify-content: flex-start;
+    }
+}
+    @media screen and (max-width: 543px){
+        .header{
+            height: 20.5rem auto;
+        }
+    .main{
+        margin: 0;
+        flex-wrap: wrap;
+    }
+    .mainu{
+    margin-top: 1rem;
+    width: 100%;
+    }
+    .seccionu{
+    margin: 0 auto;
+    width: 90%;
+    }
+    .maind{
+        margin-top: 1rem;
+        width: 100%;
+    }
+    .secciond{
+    margin: 0 auto;
+    width: 90%;
+    }
+    .maint{
+    margin-bottom: 1rem;
+    width: 100%;
+    } 
+    .secciont{
+    margin: 0 auto;
+    width: 90%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+    
