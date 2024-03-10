@@ -87,7 +87,6 @@ body {
             background-color: purple;
         }
         div{
-            display: flex;
             .compatible{
                 padding: 10px;
                 h3{
@@ -114,24 +113,32 @@ body {
             border: solid black 2px;
             margin: 0 auto;
         }
-        .mainu{
-            width: 33.3%;
-            display: flex;
-            justify-content: center;
+        .tmaint{
             border: solid black 2px;
+            width: 100vw;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            .mainu{
+                border: solid black 2px;
+                width: 33%;
+                display: flex;
+                justify-content: center;
+        
         }
         .maind{
             border: solid black 2px;
-            width: 33.3%;
+            width: 33%;
             display: flex;
             justify-content: center;
         }
         .maint{
             border: solid black 2px;
-            width: 33.3%;
+            width: 33%;
             display: flex;
             justify-content: center;    
         }
+    }
     }
     aside{
         border: solid rgb(86, 92, 4) 2px;

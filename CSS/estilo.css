@@ -86,9 +86,6 @@ main .parrafou {
   color: white;
   background-color: purple;
 }
-main div {
-  display: flex;
-}
 main div .compatible {
   padding: 10px;
 }
@@ -114,21 +111,28 @@ main .carrusel {
   border: solid black 2px;
   margin: 0 auto;
 }
-main .mainu {
-  width: 33.3%;
+main .tmaint {
+  border: solid black 2px;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+main .tmaint .mainu {
+  border: solid black 2px;
+  width: 33%;
   display: flex;
   justify-content: center;
-  border: solid black 2px;
 }
-main .maind {
+main .tmaint .maind {
   border: solid black 2px;
-  width: 33.3%;
+  width: 33%;
   display: flex;
   justify-content: center;
 }
-main .maint {
+main .tmaint .maint {
   border: solid black 2px;
-  width: 33.3%;
+  width: 33%;
   display: flex;
   justify-content: center;
 }
