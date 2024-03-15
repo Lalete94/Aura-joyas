@@ -1,0 +1,26 @@
+footer {
+  background-color: white;
+  border: solid black 2px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+footer .seccionsie {
+  width: 33.3%;
+}
+footer .secciono {
+  width: 33.3%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+footer .seccionn {
+  width: 33.3%;
+}
+footer .ins {
+  width: 20px;
+  height: 20px;
+}
+
+/*# sourceMappingURL=foot.css.map */

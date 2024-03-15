@@ -1,0 +1,207 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    header{
+        width: 100vw;
+        background-color: white;
+        border: solid 2px  $color1; 
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between; 
+        .nabar{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            .nabarU{
+                    width: 100%;
+                    img{
+                        border: solid 2px  $color1;      
+                        border-radius: 50%;
+                        width: 200px;
+                        height: 200px;
+                        
+                    }                 
+                    .botonera_U{  
+                
+                                .botonera_D{
+                                    border: solid $color1 1px;                         
+                                    width: 12rem;
+                                    padding: 5px;
+                                    margin: 10px;
+                                    background-color: $color3;
+                                    &:hover{
+                                        background-color: $color1;
+                                        border: solid $color3 1px;
+                                        a{
+                                            color: $color8;
+                                        }
+                                    }
+                                }
+                            }
+                            }
+                        }
+                }
+    main{
+        width: 100vw;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        .carrusel{
+            width: 100vw;
+            margin: 0 auto;
+            img{
+                width: 650px;
+                height: 450px;
+            }
+        }
+        .tmaint{
+            width: 100vw;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            .centradou{
+                width: 100%;
+                height: 3rem;
+                }
+            
+            }
+            .fotos{
+                margin: 10px auto;
+                width: 100vw;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around; 
+                .img__img{ 
+                    width: 300px;
+                    height: 300px;
+                    opacity: 1;
+                    &:hover{
+                        opacity: .6;
+                        transition: 0.5s;
+                    }
+                }
+            }
+            .centradou{
+                width: 100%;
+                height: 3rem;
+                }
+            .mainu{
+                width: 100vw;
+                margin: 20px;
+                padding: 50px;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                border: solid black 2px;
+                img{
+                    background-color: $color5;
+                    opacity: 1;
+                    &:hover{
+                        opacity: .6;
+                        transition: 0.5s;
+                    }
+                }
+                .card__body{
+                    background-color: $color5;
+                }
+                .botonera_D{
+                    border: solid $color1 1px;                         
+                    width: 12rem;
+                    padding: 5px;
+                    margin: 10px;
+                    background-color: $color3;
+                    &:hover{
+                        background-color: $color1;
+                        border: solid $color3 1px;
+                        a{
+                            color: $color8;
+                        }
+                    }
+                }
+            }
+
+        }
+    
+    aside{
+        width: 100vw;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        .centradou{
+            width: 100%;
+            height: 3rem;
+            }  
+        .mainu{
+            width: 100vw;
+            margin: 20px;
+            padding: 50px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            border: solid black 2px;
+            img{
+                background-color: $color5;
+                opacity: 1;
+                &:hover{
+                    opacity: .6;
+                    transition: 0.5s;
+                }
+            }
+            .card__body{
+                background-color: $color5;
+            }
+            .botonera_D{
+                border: solid $color1 1px;                         
+                width: 12rem;
+                padding: 5px;
+                margin: 10px;
+                background-color: $color3;
+                &:hover{
+                    background-color: $color1;
+                    border: solid $color3 1px;
+                    a{
+                            color: $color8;
+                    }
+                }
+            }
+        }
+
+    }
+    footer{
+        width: 123%;
+        padding: 10px;
+        background-color: white;
+        border: solid rgb(86, 92, 4) 2px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        .seccionsie{
+            width: 33%;
+        }
+        .secciono{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 33%;
+        }
+        .seccionn{
+            width: 33%;
+        }
+        .ins{
+            width: 20px;
+            height: 20px;
+        }
+    }
+}
+            

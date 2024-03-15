@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Forum", serif;
+    src: url("../font/Forum/Forum-Regular.ttf");
+}
+body {
+    background-color: $color6;
+}
