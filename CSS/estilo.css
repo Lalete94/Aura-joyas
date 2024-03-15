@@ -63,6 +63,7 @@ body {
   justify-content: space-around;
 }
 .container main .carrusel {
+  border: solid #9b684d 2px;
   width: 100vw;
   margin: 0 auto;
 }
@@ -81,6 +82,7 @@ body {
   height: 3rem;
 }
 .container main .fotos {
+  border: solid #9b684d 2px;
   margin: 10px auto;
   width: 100vw;
   display: flex;
@@ -108,7 +110,6 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  border: solid black 2px;
 }
 .container main .mainu img {
   background-color: #eedcd8;
@@ -135,6 +136,38 @@ body {
 .container main .mainu .botonera_D:hover a {
   color: white;
 }
+.container main .Formulario {
+  width: 100vw;
+}
+.container main .Formulario .formulario__u {
+  width: 50vw;
+  margin: 0 auto;
+}
+.container main .Formulario .formulario__u .botonera_D {
+  border: solid #9b684d 1px;
+  width: 12rem;
+  padding: 5px;
+  margin: 10px;
+  background-color: #d2988d;
+}
+.container main .Formulario .formulario__u .botonera_D:hover {
+  background-color: #9b684d;
+  border: solid #d2988d 1px;
+}
+.container main .Formulario .formulario__u .botonera_D:hover a {
+  color: white;
+}
+.container main .centradou {
+  width: 100%;
+  height: 3rem;
+}
+.container main .texto {
+  padding: 20px;
+  width: 100vw;
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+}
 .container aside {
   width: 100vw;
   margin: 0 auto;
@@ -155,7 +188,6 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  border: solid black 2px;
 }
 .container aside .mainu img {
   background-color: #eedcd8;
@@ -193,9 +225,11 @@ body {
   justify-content: space-around;
 }
 .container footer .seccionsie {
+  text-decoration: none;
   width: 33%;
 }
 .container footer .secciono {
+  text-decoration: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
